@@ -2,5 +2,11 @@
 
 #как это запустить: в консоли git bash  ./push.bat.txt
 
+git status
+git add *
+
+#TODO дату в коммит
+Now_hourly=$(date +%d-%b-%H_%M) 
+git commit -m "$Now_hourly"
 git push https://mtch0604:asdfnjusdfhb33@github.com/mtch0604/mtch0604.github.io --all
 

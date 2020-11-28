@@ -1,0 +1,5 @@
+#!/bin/bash
+Now_hourly=$(date +%d-%b-%H_%M)    
+Now_daily=$(date +%d-%b-daily)    
+echo "$Now_hourly"
+echo "$Now_daily"
