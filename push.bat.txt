@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#как это запустить: в консоли git bash  ./push.bat.txt
+
+git push https://mtch0604:asdfnjusdfhb33@github.com/mtch0604/mtch0604.github.io --all
+
